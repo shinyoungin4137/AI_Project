@@ -15,15 +15,13 @@ This project implements a custom Convolutional Neural Network (CNN) based on the
 ├── requirements.txt   # List of Python dependencies
 ├── better_net.pth     # Trained model weights (Required for inference)
 └── README.md          # Project documentation
-💻 How to Run
-1. Clone the repository
-Bash
+## 💻 How to Run
 
+### 1. Clone the repository
+```bash
 git clone [https://github.com/shinyoungin4137/AI_Project.git](https://github.com/shinyoungin4137/AI_Project.git)
 cd AI_Project
 2. Install Dependencies
-Bash
-
 pip install -r requirements.txt
 3. Prepare Model Weights
 ⚠️ Important: The trained model weight file (better_net.pth) is required to run the inference.
@@ -35,10 +33,11 @@ Please place your trained better_net.pth file in the root directory of this proj
 4. Run Inference
 You can test the model with any custom image.
 
-Bash
-
 # Run with default settings (looks for a default image if configured)
 python inference.py
+
+# Run with a specific image file path
+python inference.py assets/test_dog.jpg
 
 # Run with a specific image file path
 python inference.py assets/test_dog.jpg
