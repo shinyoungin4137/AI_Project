@@ -30,7 +30,6 @@ AI_Project/
 ## 💻 How to Run
 <img width="1022" height="356" alt="result" src="https://github.com/user-attachments/assets/35ff0515-fd39-4df4-94bf-8e4f5d909ba1" />
 
-
 ### 1. Clone the repository
 
 ~~~bash
