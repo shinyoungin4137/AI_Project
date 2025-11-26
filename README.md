@@ -18,6 +18,7 @@ It achieves high accuracy by utilizing **Residual Blocks** and **Global Average 
 ~~~bash
 AI_Project/
 ├── model.py           # Defines BetterNet architecture & ResidualBlock class
+├── train.py           # Training module 
 ├── inference.py       # Main script for single image inference
 ├── requirements.txt   # List of Python dependencies
 ├── better_net.pth     # Trained model weights (required for inference)
